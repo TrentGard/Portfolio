@@ -794,6 +794,7 @@ table td {
 	==================
 */
 #about {
+  color:white;
   width: 100%;
   min-height: 200px;
   height: auto;
@@ -809,6 +810,9 @@ table td {
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden;
+}
+#white {
+  color:white;
 }
 @media screen and (max-width: 767px) {
   #about {
