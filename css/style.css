@@ -676,7 +676,7 @@ table td {
 #service {
   width: 100%;
   padding: 120px 0 100px;
-  background-color: #f7f7f7;
+  background-color: #EDEBEB;
 }
 @media screen and (max-width: 767px) {
   #service {
@@ -830,6 +830,7 @@ table td {
   border-radius: 4px;
 }
 #education {
+  background-color: #EDEBEB;
   padding: 120px 0 60px;
 }
 @media screen and (max-width: 767px) {
@@ -921,7 +922,7 @@ table td {
 #work {
   width: 100%;
   padding: 120px 0 100px;
-  background-color: #f7f7f7;
+  background-color: transparent;
 }
 @media screen and (max-width: 767px) {
   #work {
@@ -1314,7 +1315,7 @@ a .blog-container .blog-content h3:focus {
 #contact {
   width: 100%;
   padding: 120px 0 100px;
-  background-color: #f7f7f7;
+  background-color: #EDEBEB;
 }
 @media screen and (max-width: 767px) {
   #contact {
