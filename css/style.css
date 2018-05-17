@@ -812,10 +812,6 @@ table td {
   overflow: hidden;
 }
 
-#white {
-  color: white;
-}
-
 @media screen and (max-width: 767px) {
   #about {
     color: #6b6e80;
