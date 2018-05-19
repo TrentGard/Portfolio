@@ -88,18 +88,18 @@ a:hover {
 	[2. BUTTON]
 	==================
 */
-.btn-jessica {
+.btn-resume {
   font-weight: 600;
   text-transform: uppercase;
-  background-color: #ef4034;
-  border-color: #ef4034;
+  background-color: #990000;
+  border-color: #black;
   color: #ffffff;
 }
-.btn-jessica:hover,
-.btn-jessica:focus,
-.btn-jessica:active,
-.btn-jessica.active,
-.open > .dropdown-toggle.btn-jessica {
+.btn-resume:hover,
+.btn-resume:focus,
+.btn-resume:active,
+.btn-resume.active,
+.open > .dropdown-toggle.btn-resume {
   background-color: #434a54;
   border-color: #434a54;
   color: #ffffff;
