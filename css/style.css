@@ -962,11 +962,11 @@ table td {
     background-color: #ffffff;
   }
 }
-.work-container {
+/*.work-container {
   width: 100%;
   padding: 0;
   margin: 0;
-}
+}*/
 .work-item {
   position: relative;
   display: block;
