@@ -42,7 +42,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
@@ -92,7 +92,7 @@ a:hover {
   font-weight: 600;
   text-transform: uppercase;
   background-color: #990000;
-  border-color: #black;
+  border-color: black;
   color: #ffffff;
 }
 .btn-resume:hover,
@@ -114,7 +114,7 @@ strong {
   font-weight: 700;
 }
 .font-kaushan {
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
 }
 .text-color {
   color: #ef4034;
@@ -176,7 +176,7 @@ strong {
 }
 .page-title h2 {
   position: relative;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 48px;
   line-height: 52px;
   font-weight: 700;
@@ -184,14 +184,14 @@ strong {
 }
 .page-title h2 small {
   display: block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
   margin-top: 5px;
 }
 .page-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: -20px;
@@ -200,7 +200,7 @@ strong {
   background-color: #ef4034;
 }
 .page-title h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 34px;
   line-height: 38px;
   font-weight: 700;
@@ -208,7 +208,7 @@ strong {
 }
 .page-title h3 small {
   display: block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 20px;
   font-weight: 400;
@@ -338,8 +338,7 @@ table td {
 	==================
 */
 .navbar-default {
-  /* navbar scroll */
-
+  background-color: transparent;
 }
 @media (min-width: 768px) {
   .navbar-default {
@@ -371,7 +370,7 @@ table td {
   left: 15px;
   top: -40px;
   padding: 55px 30px 65px;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   font-size: 42px;
   line-height: 20px;
   font-weight: 400;
@@ -385,7 +384,7 @@ table td {
 }
 @media (min-width: 768px) {
   .navbar-default .navbar-brand {
-    font-family: 'Kaushan Script', cursive;
+    font-family: "Kaushan Script", cursive;
     font-size: 42px;
     line-height: 20px;
     font-weight: 400;
@@ -394,7 +393,7 @@ table td {
 }
 @media screen and (max-width: 767px) {
   .navbar-default .navbar-brand {
-    font-family: 'Kaushan Script', cursive;
+    font-family: "Kaushan Script", cursive;
     font-size: 20px;
     line-height: 20px;
     font-weight: 400;
@@ -404,7 +403,7 @@ table td {
 }
 @media screen and (max-width: 480px) {
   .navbar-default .navbar-brand {
-    font-family: 'Kaushan Script', cursive;
+    font-family: "Kaushan Script", cursive;
     font-size: 19px;
     line-height: 21px;
     font-weight: 400;
@@ -444,7 +443,7 @@ table td {
 }
 .navbar-default .navbar-nav > li > a:hover::after,
 .navbar-default .navbar-nav > li > a:focus::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 0;
@@ -469,8 +468,15 @@ table td {
   }
 }
 .navbar-default .navbar-nav > .active > a::after,
-.navbar-default .navbar-nav > .active > a:hover .navbar-default .navbar-nav > .active > a::after {
-  content: '';
+.navbar-default
+  .navbar-nav
+  > .active
+  > a:hover
+  .navbar-default
+  .navbar-nav
+  > .active
+  > a::after {
+  content: "";
   position: absolute;
   left: 50%;
   top: 0;
@@ -481,15 +487,36 @@ table td {
 }
 @media screen and (max-width: 767px) {
   .navbar-default .navbar-nav > .active > a::after,
-  .navbar-default .navbar-nav > .active > a:hover .navbar-default .navbar-nav > .active > a::after {
-    content: '';
+  .navbar-default
+    .navbar-nav
+    > .active
+    > a:hover
+    .navbar-default
+    .navbar-nav
+    > .active
+    > a::after {
+    content: "";
     display: none;
   }
 }
 .navbar-default .navbar-nav > li.dropdown.open > a::after,
-.navbar-default .navbar-nav > li.dropdown.open > a:hover .navbar-default .navbar-nav > li.dropdown.open > a::after,
-.navbar-default .navbar-nav > li.dropdown.open > a:focus .navbar-default .navbar-nav > li.dropdown.open > a::after {
-  content: '';
+.navbar-default
+  .navbar-nav
+  > li.dropdown.open
+  > a:hover
+  .navbar-default
+  .navbar-nav
+  > li.dropdown.open
+  > a::after,
+.navbar-default
+  .navbar-nav
+  > li.dropdown.open
+  > a:focus
+  .navbar-default
+  .navbar-nav
+  > li.dropdown.open
+  > a::after {
+  content: "";
   display: none;
 }
 .navbar-default .navbar-nav > li.dropdown.open > a,
@@ -511,7 +538,7 @@ table td {
   }
 }
 .navbar-default.navbar-scroll .navbar-brand {
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   font-size: 28px;
   line-height: 20px;
   font-weight: 400;
@@ -523,7 +550,7 @@ table td {
 }
 @media screen and (max-width: 767px) {
   .navbar-default.navbar-scroll .navbar-brand {
-    font-family: 'Kaushan Script', cursive;
+    font-family: "Kaushan Script", cursive;
     font-size: 20px;
     line-height: 20px;
     font-weight: 400;
@@ -571,7 +598,7 @@ table td {
 }
 .dropdown-menu > li > a {
   position: relative;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   line-height: 14px;
   font-weight: 400;
@@ -602,7 +629,7 @@ table td {
 .dropdown-menu > .active > a::after,
 .dropdown-menu > .active > a:hover .dropdown-menu > .active > a::after,
 .dropdown-menu > .active > a:focus .dropdown-menu > .active > a::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   top: 0;
@@ -643,7 +670,7 @@ table td {
   }
 }
 #header::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 1;
   left: 0;
@@ -658,13 +685,13 @@ table td {
   color: #ffffff;
 }
 #header .header-text h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 52px;
   line-height: 56px;
   font-weight: 700;
 }
 #header .header-text h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 26px;
   font-weight: 400;
@@ -679,7 +706,7 @@ table td {
 #service {
   width: 100%;
   padding: 120px 0 100px;
-  background-color: #EDEBEB;
+  background-color: #edebeb;
 }
 @media screen and (max-width: 767px) {
   #service {
@@ -705,7 +732,7 @@ table td {
   font-weight: 700;
   text-transform: uppercase;
   color: #434a54;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
@@ -731,13 +758,13 @@ table td {
   transition: all 0.3s ease-in-out;
 }
 .service-content .service-icon .glyphicon {
-  font-family: 'Glyphicons Halflings';
+  font-family: "Glyphicons Halflings";
   font-size: 32px;
   line-height: 40px;
   font-weight: 400;
 }
 .service-content .service-icon .fa {
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   font-size: 32px;
   line-height: 40px;
   font-weight: 400;
@@ -800,7 +827,7 @@ table td {
   height: auto;
   padding: 120px 0 100px;
   background-color: transparent;
-  background-image: url('../img/IUBlackBackground_copy2.jpeg');
+  background-image: url("../img/IUBlackBackground_copy2.jpeg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -836,16 +863,18 @@ table td {
   border-radius: 4px;
 }
 
-#about-me-header, #about-me-small {
+#about-me-header,
+#about-me-small {
   color: white;
 }
 @media screen and (max-width: 767px) {
-  #about-me-header, #about-me-small {
+  #about-me-header,
+  #about-me-small {
     color: #6b6e80;
   }
 }
 #education {
-  background-color: #EDEBEB;
+  background-color: #edebeb;
   padding: 120px 0 60px;
 }
 @media screen and (max-width: 767px) {
@@ -870,7 +899,7 @@ table td {
   left: 0;
 }
 .chartbox .chart-title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: normal;
   font-weight: 600;
@@ -879,7 +908,7 @@ table td {
 }
 .chartbox .percent {
   display: inline-block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 26px;
   line-height: 130px;
   font-weight: 400;
@@ -887,9 +916,9 @@ table td {
   z-index: 2;
 }
 .chartbox .percent::after {
-  content: '%';
+  content: "%";
   margin-left: 0.1em;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 .edubox {
   width: auto;
@@ -902,7 +931,7 @@ table td {
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   line-height: 20px;
   font-weight: 400;
@@ -921,7 +950,7 @@ table td {
   color: #ef4034;
 }
 .edubox h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: normal;
   font-weight: 700;
@@ -940,7 +969,7 @@ table td {
   height: auto;
   padding: 120px 0 100px;
   background-color: transparent;
-  background-image: url('../img/laptop1.jpeg');
+  background-image: url("../img/laptop1.jpeg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -1006,7 +1035,7 @@ table td {
   position: absolute;
   bottom: 20px;
   right: 60px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -1140,7 +1169,7 @@ table td {
 }
 /* modal */
 #cwdlogo {
-  margin-left: : 50%;
+  margin-left: 50%;
   margin-top: 5%;
   margin-bottom: 10%;
 }
@@ -1164,7 +1193,7 @@ table td {
   margin-bottom: 30px;
 }
 h2 .modal-work .modal-content .page-title::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: -20px;
@@ -1209,7 +1238,7 @@ h2 .modal-work .modal-content .page-title::after {
   }
 }
 .modal-work .modal-close::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 40px;
   top: -15px;
@@ -1224,7 +1253,7 @@ h2 .modal-work .modal-content .page-title::after {
 }
 @media screen and (max-width: 767px) {
   .modal-work .modal-close::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 30px;
     top: -10px;
@@ -1233,7 +1262,7 @@ h2 .modal-work .modal-content .page-title::after {
   }
 }
 .modal-work .modal-close::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 40px;
   top: -15px;
@@ -1248,7 +1277,7 @@ h2 .modal-work .modal-content .page-title::after {
 }
 @media screen and (max-width: 767px) {
   .modal-work .modal-close::after {
-    content: '';
+    content: "";
     position: absolute;
     right: 30px;
     top: -10px;
@@ -1260,7 +1289,7 @@ h2 .modal-work .modal-content .page-title::after {
 .modal-work .modal-close:focus::before,
 .modal-work .modal-close:hover::after,
 .modal-work .modal-close:focus::after {
-  content: '';
+  content: "";
   background-color: #ef4034;
   -webkit-transition: background-color 0.3s ease-in-out;
   -moz-transition: background-color 0.3s ease-in-out;
@@ -1309,7 +1338,7 @@ h2 .modal-work .modal-content .page-title::after {
 .blog-container .blog-content h3 {
   position: relative;
   display: block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 600;
@@ -1317,7 +1346,7 @@ h2 .modal-work .modal-content .page-title::after {
   padding: 10px 0;
 }
 .blog-container .blog-content h3::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 0;
@@ -1332,8 +1361,13 @@ a .blog-container .blog-content h3:focus {
   color: #434a54;
   outline: none;
 }
-.blog-container .blog-content h3:hover .blog-container .blog-content h3::before {
-  content: '';
+.blog-container
+  .blog-content
+  h3:hover
+  .blog-container
+  .blog-content
+  h3::before {
+  content: "";
   background-color: #ef4034;
 }
 .blog-container .blog-content small {
@@ -1349,7 +1383,7 @@ a .blog-container .blog-content h3:focus {
 #contact {
   width: 100%;
   padding: 120px 0 100px;
-  background-color: #EDEBEB;
+  background-color: #edebeb;
 }
 @media screen and (max-width: 767px) {
   #contact {
@@ -1368,7 +1402,7 @@ a .blog-container .blog-content h3:focus {
 }
 #map::before,
 #map::after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
@@ -1401,7 +1435,7 @@ a .blog-container .blog-content h3:focus {
   min-height: 300px;
   padding: 60px 0 40px;
   background-color: transparent !important;
-  background-image: url('../img/Austin-Skyline-Evening-Panorama-7-4.jpeg') !important;
+  background-image: url("../img/Austin-Skyline-Evening-Panorama-7-4.jpeg") !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -1417,12 +1451,12 @@ a .blog-container .blog-content h3:focus {
   transition: all 0.1s ease-in-out;
 }
 .social::before {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
 .social::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 1;
   top: 0;
@@ -1440,13 +1474,13 @@ a .blog-container .blog-content h3:focus {
   margin-bottom: 30px;
 }
 .social .social-text .page-title h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 36px;
   line-height: 40px;
   font-weight: 400;
 }
 .social .social-text .page-title h2::after {
-  content: '';
+  content: "";
   display: none;
 }
 .social .social-text h1,
@@ -1488,13 +1522,13 @@ a .blog-container .blog-content h3:focus {
   transition: all 0.3s ease-in-out;
 }
 .social-icon > li > a > .fa {
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   font-size: 34px;
   line-height: 34px;
   font-weight: 400;
 }
 .social-icon > li > a > .glyphicon {
-  font-family: 'Glyphicons Halflings';
+  font-family: "Glyphicons Halflings";
   font-size: 34px;
   line-height: 34px;
   font-weight: 400;
@@ -1555,7 +1589,7 @@ a .blog-container .blog-content h3:focus {
 .footer .footer-box h3 {
   margin-top: 0;
   margin-bottom: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -1563,7 +1597,7 @@ a .blog-container .blog-content h3:focus {
   text-transform: uppercase;
 }
 .footer .footer-box p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -1591,13 +1625,13 @@ a .blog-container .blog-content h3:focus {
   }
 }
 .footer .footer-box .footer-icon .fa {
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   font-size: 30px;
   line-height: 40px;
   font-weight: 400;
 }
 .footer .footer-box .footer-icon .glyphicon {
-  font-family: 'Glyphicons Halflings';
+  font-family: "Glyphicons Halflings";
   font-size: 30px;
   line-height: 40px;
   font-weight: 400;
@@ -1620,7 +1654,7 @@ a .blog-container .blog-content h3:focus {
   z-index: 4;
   text-align: center;
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
   font-weight: 300;
