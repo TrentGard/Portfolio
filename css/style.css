@@ -12,7 +12,7 @@
 	[7. ALERT]
 	[8. NAVBAR]
 	[9. HEADER]
-  [10. SERVICE]
+  [10. SKILL]
   [11.SAMPLE PROJECTS]
 	[12. ABOUT]
 	[13. WORK]
@@ -41,20 +41,20 @@ body {
 ::-moz-selection {
   color: #ffffff;
   text-shadow: none;
-  background-color: #ef4034;
+  background-color: darkred;
 }
 ::-webkit-selection {
   color: #ffffff;
   text-shadow: none;
-  background-color: #ef4034;
+  background-color: darkred;
 }
 ::selection {
   color: #ffffff;
   text-shadow: none;
-  background-color: #ef4034;
+  background-color: darkred;
 }
 a {
-  color: #ef4034;
+  color: darkred;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -105,13 +105,13 @@ strong {
   font-family: "Kaushan Script", cursive;
 }
 .text-color {
-  color: #ef4034;
+  color: darkred;
 }
 .text-white {
   color: white;
 }
 .text-red {
-  color: #ef4034;
+  color: darkred;
 }
 .text-black {
   color: #434a54;
@@ -185,7 +185,7 @@ strong {
   top: -20px;
   width: 65px;
   height: 2px;
-  background-color: #ef4034;
+  background-color: darkred;
 }
 .page-title h3 {
   font-family: "Open Sans", sans-serif;
@@ -222,7 +222,7 @@ strong {
 */
 .pagination > li > a,
 .pagination > li > span {
-  color: #ef4034;
+  color: darkred;
 }
 .pagination > li > a:hover,
 .pagination > li > span:hover,
@@ -236,8 +236,8 @@ strong {
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  background-color: #ef4034;
-  border-color: #ef4034;
+  background-color: darkred;
+  border-color: darkred;
 }
 
 /*
@@ -368,7 +368,7 @@ table td {
   -ms-border-radius: 0 0 8px 8px;
   -o-border-radius: 0 0 8px 8px;
   border-radius: 0 0 8px 8px;
-  background-color: #ef4034;
+  background-color: darkred;
 }
 @media (min-width: 768px) {
   .navbar-default .navbar-brand {
@@ -400,7 +400,7 @@ table td {
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #434a54;
-  background-color: #ef4034;
+  background-color: darkred;
 }
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
@@ -421,12 +421,12 @@ table td {
   .navbar-default .navbar-nav > li > a:hover,
   .navbar-default .navbar-nav > li > a:focus {
     position: relative;
-    color: #ef4034;
+    color: darkred;
   }
   .navbar-default .navbar-nav > li > a:hover::after,
   .navbar-default .navbar-nav > li > a:focus::after {
     position: relative;
-    color: #ef4034;
+    color: darkred;
   }
 }
 .navbar-default .navbar-nav > li > a:hover::after,
@@ -438,7 +438,7 @@ table td {
   margin-left: -17px;
   width: 35px;
   height: 2px;
-  background-color: #ef4034;
+  background-color: darkred;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -452,7 +452,7 @@ table td {
   .navbar-default .navbar-nav > .active > a:hover,
   .navbar-default .navbar-nav > .active > a:focus {
     position: relative;
-    color: #ef4034;
+    color: darkred;
   }
 }
 .navbar-default .navbar-nav > .active > a::after,
@@ -471,7 +471,7 @@ table td {
   margin-left: -17px;
   width: 35px;
   height: 2px;
-  background-color: #ef4034;
+  background-color: darkred;
 }
 @media screen and (max-width: 767px) {
   .navbar-default .navbar-nav > .active > a::after,
@@ -553,13 +553,13 @@ table td {
 .navbar-default.navbar-scroll .navbar-nav > li > a:focus {
   position: relative;
   background-color: transparent;
-  color: #ef4034;
+  color: darkred;
 }
 .navbar-default.navbar-scroll .navbar-nav > .active > a,
 .navbar-default.navbar-scroll .navbar-nav > .active > a:hover {
   position: relative;
   background-color: transparent;
-  color: #ef4034;
+  color: darkred;
 }
 .navbar-default.navbar-scroll .navbar-nav li.dropdown.open > a,
 .navbar-default.navbar-scroll .navbar-nav li.dropdown.open > a:hover,
@@ -597,7 +597,7 @@ table td {
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: #ffffff;
-  background-color: #ef4034;
+  background-color: darkred;
 }
 @media screen and (max-width: 767px) {
   .dropdown-menu > li > a {
@@ -623,7 +623,7 @@ table td {
   top: 0;
   width: 5px;
   height: 100%;
-  background-color: #ef4034;
+  background-color: darkred;
 }
 
 /*
@@ -688,16 +688,16 @@ table td {
 
 /*
 	==================
-	[10. SERVICE]
+	[10. SKILL]
 	==================
 */
-#service {
+#skill {
   width: 100%;
   padding: 120px 0 100px;
   background-color: #edebeb;
 }
 @media screen and (max-width: 767px) {
-  #service {
+  #skill {
     width: 100%;
     height: auto;
     min-height: 150px;
@@ -705,7 +705,7 @@ table td {
     padding: 90px 0 80px;
   }
 }
-.service-content {
+.skill-content {
   position: relative;
   padding: 20px;
   margin-top: 40px;
@@ -714,7 +714,7 @@ table td {
   border: 1px solid #eee;
   background-color: #ffffff;
 }
-.service-content h3 {
+.skill-content h3 {
   margin-top: 40px;
   margin-bottom: 20px;
   font-weight: 700;
@@ -730,7 +730,7 @@ table td {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.service-content .service-icon {
+.skill-content .skill-icon {
   position: absolute;
   left: 50%;
   top: -35px;
@@ -738,27 +738,27 @@ table td {
   height: 70px;
   margin-left: -35px;
   border-radius: 100%;
-  background-color: #ef4034;
+  background-color: darkred;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.service-content .service-icon .glyphicon {
+.skill-content .skill-icon .glyphicon {
   font-family: "Glyphicons Halflings";
   font-size: 32px;
   line-height: 40px;
   font-weight: 400;
 }
-.service-content .service-icon .fa {
+.skill-content .skill-icon .fa {
   font-family: "FontAwesome";
   font-size: 32px;
   line-height: 40px;
   font-weight: 400;
 }
-.service-content .service-icon .fa,
-.service-content .service-icon .glyphicon {
+.skill-content .skill-icon .fa,
+.skill-content .skill-icon .glyphicon {
   position: absolute;
   left: 0;
   top: 16px;
@@ -773,15 +773,15 @@ table td {
   -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
-.service-content:hover > .service-icon .glyphicon,
-.service-content:hover > .service-icon .fa {
+.skill-content:hover > .skill-icon .glyphicon,
+.skill-content:hover > .skill-icon .fa {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.service-content:hover > .service-icon {
+.skill-content:hover > .skill-icon {
   background-color: #434a54;
   -webkit-transform: rotateX(360deg);
   -moz-transform: rotateX(360deg);
@@ -794,7 +794,7 @@ table td {
   -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
-.service-content:hover > h3 {
+.skill-content:hover > h3 {
   color: #6b6e80;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -850,7 +850,7 @@ table td {
   height: 70px;
   margin-left: -35px;
   border-radius: 100%;
-  background-color: #ef4034;
+  background-color: darkred;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -1012,7 +1012,7 @@ table td {
   font-size: 26px;
   line-height: 130px;
   font-weight: 400;
-  color: #ef4034;
+  color: darkred;
   z-index: 2;
 }
 .chartbox .percent::after {
@@ -1043,11 +1043,11 @@ table td {
   transition: all 0.2s ease-in-out;
 }
 .edubox:hover {
-  border-color: #ef4034;
+  border-color: darkred;
   background-color: #f9f9f9;
 }
 .edubox:hover > h4 {
-  color: #ef4034;
+  color: darkred;
 }
 .edubox h4 {
   font-family: "Open Sans", sans-serif;
@@ -1300,7 +1300,7 @@ h2 .modal-work .modal-content .page-title::after {
   width: 65px;
   height: 2px;
   margin-left: -32px;
-  background-color: #ef4034;
+  background-color: darkred;
 }
 .modal-work .modal-content .work-detail {
   margin-top: 20px;
@@ -1390,7 +1390,7 @@ h2 .modal-work .modal-content .page-title::after {
 .modal-work .modal-close:hover::after,
 .modal-work .modal-close:focus::after {
   content: "";
-  background-color: #ef4034;
+  background-color: darkred;
   -webkit-transition: background-color 0.3s ease-in-out;
   -moz-transition: background-color 0.3s ease-in-out;
   -ms-transition: background-color 0.3s ease-in-out;
@@ -1468,7 +1468,7 @@ a .blog-container .blog-content h3:focus {
   .blog-content
   h3::before {
   content: "";
-  background-color: #ef4034;
+  background-color: darkred;
 }
 .blog-container .blog-content small {
   display: block;
@@ -1709,7 +1709,7 @@ a .blog-container .blog-content h3:focus {
   display: block;
   width: 60px;
   height: 60px;
-  background-color: #ef4034;
+  background-color: darkred;
   color: #ffffff;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
