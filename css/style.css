@@ -13,10 +13,10 @@
 	[8. NAVBAR]
 	[9. HEADER]
   [10. SKILL]
-  [11.SAMPLE PROJECTS]
-	[12. ABOUT]
-	[13. WORK]
-	[14. BLOG]
+  [11. SAMPLE PROJECTS]
+  [12. ABOUT]
+  [13. EDUCATION]
+	[14. WORK]
 	[15. CONTACT]
 	[16. SOCIAL]
 	[17. FOOTER]
@@ -549,8 +549,14 @@ table td {
 .navbar-default.navbar-scroll .navbar-nav > li > a {
   color: #6b6e80;
 }
-.navbar-default.navbar-scroll .navbar-nav > li > a:hover,
-.navbar-default.navbar-scroll .navbar-nav > li > a:focus {
+.navbar-default.navbar-scroll
+  .navbar-nav
+  > li
+  > a:hover
+  .navbar-default.navbar-scroll
+  .navbar-nav
+  > li
+  > a:focus {
   position: relative;
   background-color: transparent;
   color: darkred;
@@ -691,13 +697,13 @@ table td {
 	[10. SKILL]
 	==================
 */
-#skill {
+#skills {
   width: 100%;
   padding: 120px 0 100px;
   background-color: #edebeb;
 }
 @media screen and (max-width: 767px) {
-  #skill {
+  #skills {
     width: 100%;
     height: auto;
     min-height: 150px;
@@ -705,7 +711,7 @@ table td {
     padding: 90px 0 80px;
   }
 }
-.skill-content {
+.skills-content {
   position: relative;
   padding: 20px;
   margin-top: 40px;
@@ -714,7 +720,7 @@ table td {
   border: 1px solid #eee;
   background-color: #ffffff;
 }
-.skill-content h3 {
+.skills-content h3 {
   margin-top: 40px;
   margin-bottom: 20px;
   font-weight: 700;
@@ -730,7 +736,7 @@ table td {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.skill-content .skill-icon {
+.skills-content .skills-icon {
   position: absolute;
   left: 50%;
   top: -35px;
@@ -745,20 +751,20 @@ table td {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.skill-content .skill-icon .glyphicon {
+.skills-content .skills-icon .glyphicon {
   font-family: "Glyphicons Halflings";
   font-size: 32px;
   line-height: 40px;
   font-weight: 400;
 }
-.skill-content .skill-icon .fa {
+.skills-content .skills-icon .fa {
   font-family: "FontAwesome";
   font-size: 32px;
   line-height: 40px;
   font-weight: 400;
 }
-.skill-content .skill-icon .fa,
-.skill-content .skill-icon .glyphicon {
+.skills-content .skills-icon .fa,
+.skills-content .skills-icon .glyphicon {
   position: absolute;
   left: 0;
   top: 16px;
@@ -773,15 +779,15 @@ table td {
   -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
-.skill-content:hover > .skill-icon .glyphicon,
-.skill-content:hover > .skill-icon .fa {
+.skills-content:hover > .skills-icon .glyphicon,
+.skills-content:hover > .skills-icon .fa {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.skill-content:hover > .skill-icon {
+.skills-content:hover > .skills-icon {
   background-color: #434a54;
   -webkit-transform: rotateX(360deg);
   -moz-transform: rotateX(360deg);
@@ -794,7 +800,7 @@ table td {
   -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
-.skill-content:hover > h3 {
+.skills-content:hover > h3 {
   color: #6b6e80;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -803,10 +809,28 @@ table td {
   transition: all 0.3s ease-in-out;
 }
 
+/*
+	==================
+	[11. PROJECTS]
+	==================
+*/
 #sample-projects {
+  color: white;
   width: 100%;
+  min-height: 200px;
+  height: auto;
   padding: 120px 0 100px;
-  background-color: #ffffff;
+  background-color: transparent;
+  background-image: url("../img/projects_background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
 }
 @media screen and (max-width: 767px) {
   #sample-projects {
@@ -917,7 +941,7 @@ table td {
 
 /*
 	==================
-	[11. ABOUT]
+	[12. ABOUT]
 	==================
 */
 #about {
@@ -973,8 +997,17 @@ table td {
     color: #6b6e80;
   }
 }
+
+/*
+	==================
+	[13. EDUCATION]
+	==================
+*/
 #education {
-  background-color: #edebeb;
+  color: white;
+  background-image: url("../img/education_background.jpg");
+  background-attachment: fixed;
+  background-color: transparent;
   padding: 120px 0 60px;
 }
 @media screen and (max-width: 767px) {
@@ -1060,16 +1093,17 @@ table td {
 
 /*
 	==================
-	[12. WORK]
+	[14. WORK]
 	==================
 */
 #work {
+  color: white;
   width: 100%;
   min-height: 200px;
   height: auto;
   padding: 120px 0 100px;
   background-color: transparent;
-  background-image: url("../img/laptop1.jpeg");
+  background-image: url("../img/work_background.jpeg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -1080,22 +1114,41 @@ table td {
   background-attachment: fixed;
   overflow: hidden;
 }
+
 @media screen and (max-width: 767px) {
   #work {
+    color: #6b6e80;
+    display: block;
     width: 100%;
     height: auto;
     min-height: 150px;
-    display: block;
-    padding: 90px 0 80px;
+    padding: 90px 0 40px;
     background-image: none;
     background-color: #ffffff;
   }
 }
-/*.work-container {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}*/
+#work .img-work {
+  display: block;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-top: 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+#work-me-header,
+#work-me-small {
+  color: white;
+}
+@media screen and (max-width: 767px) {
+  #work-me-header,
+  #work-me-small {
+    color: #6b6e80;
+  }
+}
 .work-item {
   position: relative;
   display: block;
@@ -1400,84 +1453,7 @@ h2 .modal-work .modal-content .page-title::after {
 
 /*
 	==================
-	[13. BLOG]
-	==================
-*/
-#blog {
-  width: 100%;
-  padding: 120px 0 100px;
-}
-@media screen and (max-width: 767px) {
-  #blog {
-    width: 100%;
-    height: auto;
-    min-height: 150px;
-    display: block;
-    padding: 90px 0 80px;
-  }
-}
-.blog-container {
-  width: auto;
-  margin-bottom: 40px;
-}
-.blog-container .blog-img {
-  margin-bottom: 20px;
-  overflow: hidden;
-}
-.blog-container .blog-img img {
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-}
-.blog-container .blog-content {
-  text-align: center;
-  color: #434a54;
-}
-.blog-container .blog-content h3 {
-  position: relative;
-  display: block;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 600;
-  margin: 20px 0 10px;
-  padding: 10px 0;
-}
-.blog-container .blog-content h3::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 0;
-  margin-left: -15px;
-  width: 30px;
-  height: 2px;
-  background-color: #434a54;
-}
-a .blog-container .blog-content h3:hover,
-a .blog-container .blog-content h3:focus {
-  text-decoration: none;
-  color: #434a54;
-  outline: none;
-}
-.blog-container
-  .blog-content
-  h3:hover
-  .blog-container
-  .blog-content
-  h3::before {
-  content: "";
-  background-color: darkred;
-}
-.blog-container .blog-content small {
-  display: block;
-  margin-bottom: 10px;
-}
-
-/*
-	==================
-	[14. CONTACT]
+	[15. CONTACT]
 	==================
 */
 #contact {
@@ -1526,11 +1502,11 @@ a .blog-container .blog-content h3:focus {
 
 /*
 	==================
-	[15. SOCIAL]
+	[16. SOCIAL]
 	==================
 */
 .social {
-  position: relative;
+  position: absolute;
   width: 100%;
   min-height: 300px;
   padding: 60px 0 40px;
@@ -1598,8 +1574,8 @@ a .blog-container .blog-content h3:focus {
   position: relative;
   z-index: 3;
   display: block;
-  width: 65px;
-  height: 65px;
+  width: 64px;
+  height: 64px;
   margin-right: 20px;
   margin-bottom: 10px;
   text-align: center;
@@ -1664,7 +1640,7 @@ a .blog-container .blog-content h3:focus {
 
 /*
 	==================
-	[16. FOOTER]
+	[17. FOOTER]
 	==================
 */
 .footer {
@@ -1754,9 +1730,7 @@ a .blog-container .blog-content h3:focus {
   z-index: 4;
   text-align: center;
   color: #ffffff;
-  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
   font-weight: 300;
-  font-style: italic;
 }
