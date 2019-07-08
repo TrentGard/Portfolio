@@ -1006,6 +1006,9 @@ table td {
 #education {
   color: white;
   background-image: url("../img/education_background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: transparent;
   padding: 120px 0 60px;
