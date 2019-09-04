@@ -71,7 +71,6 @@ a:hover {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
 /*
 	==================
 	[2. BUTTON]
@@ -79,7 +78,7 @@ a:hover {
 */
 .btn-resume {
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: upper ase;
   background-color: #990000;
   color: #ffffff;
 }
